@@ -1,10 +1,10 @@
-"use client"; // Ensure the component is client-side
+"use client";
 
 import { useEffect } from "react";
 
 const GlowCard = ({ children, identifier }) => {
   useEffect(() => {
-    // Check if 'document' is available (client-side only)
+    // Ensure this runs only on the client side
     if (typeof document !== "undefined") {
       const CONTAINER = document.querySelector(`.glow-container-${identifier}`);
       const CARDS = document.querySelectorAll(`.glow-card-${identifier}`);
@@ -66,7 +66,6 @@ const GlowCard = ({ children, identifier }) => {
       RESTYLE();
       UPDATE();
 
-      // Cleanup event listener on component unmount
       return () => {
         document.body.removeEventListener("pointermove", UPDATE);
       };
