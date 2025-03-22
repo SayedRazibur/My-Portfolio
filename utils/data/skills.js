@@ -10,4 +10,5 @@ export const skillsData = [
   "Git",
   "Bootstrap",
   "Figma",
+  "Zustand",
 ];
