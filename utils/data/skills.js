@@ -7,8 +7,9 @@ export const skillsData = [
   "NodeJS",
   "MongoDB",
   "Express",
+  "Zustand",
   "Git",
   "Bootstrap",
   "Figma",
-  "Zustand",
+ 
 ];
