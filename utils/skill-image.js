@@ -4,7 +4,7 @@ import canva from "/public/svg/skills/canva.svg";
 
 import css from "/public/svg/skills/css.svg";
 import docker from "/public/svg/skills/docker.svg";
-
+import zustand from "/public/svg/skills/zustand.svg"
 import figma from "/public/svg/skills/figma.svg";
 import firebase from "/public/svg/skills/firebase.svg";
 import git from "/public/svg/skills/git.svg";
@@ -30,6 +30,8 @@ import express from "/public/svg/skills/express.svg";
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
+    case "zustand":
+      return zustand;
     case "gcp":
       return gcp;
     case "nodejs":
