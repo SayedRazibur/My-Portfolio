@@ -23,13 +23,13 @@ export const projectsData = [
   },
   {
     id: 3,
-    name: "Manage",
+    name: "Neomorphic Studio",
     description:
       "Check out this stunning and fully responsive website for creative agencies! Simplicity is the key.",
     tools: ["Vanilla Javascript", "Raw CSS", "HTML"],
-    code: "https://github.com/SayedRazibur/manage",
+    code: "https://github.com/SayedRazibur/Neomorphic-Studio",
     role: "Front-end Developer",
-    demo: "sayedrazibur.github.io/manage",
+    demo: "https://sayedrazibur.github.io/Neomorphic-Studio",
     image: "",
   },
 ];
